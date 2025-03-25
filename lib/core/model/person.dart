@@ -8,6 +8,7 @@ class Person {
   static const String faceLink = "https://m.facebook.com/100064306653008/";
   static const String locationLink = "https://maps.app.goo.gl/rKuhJFvCEbzcf2Mu8";
 
+
   Person({
     required this.name,
     required this.phoneNumber,
