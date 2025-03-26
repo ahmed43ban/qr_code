@@ -1,9 +1,21 @@
+buildscript {
+    repositories {
+        google() // ✅ تأكد من وجود google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.2.2" // ✅ تأكد من أن هذا محدث
+        classpath "com.google.gms:google-services:4.4.2" // ✅ تأكد من إضافة هذا
+    }
+}
+
 allprojects {
     repositories {
         google()
         mavenCentral()
     }
 }
+
 
 rootProject.buildDir = "../build"
 subprojects {
@@ -16,3 +28,5 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+
+

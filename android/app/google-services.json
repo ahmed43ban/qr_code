@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "265144984722",
+    "project_id": "qrcode-3cbb5",
+    "storage_bucket": "qrcode-3cbb5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265144984722:android:2a33451d95e03536c6324b",
+        "android_client_info": {
+          "package_name": "com.example.qr_code"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsr-95rJppsXFL7XoVNToYcA_87A6qTzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
